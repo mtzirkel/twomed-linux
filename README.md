@@ -5,7 +5,7 @@ A minimal, privacy-focused Ubuntu 24.04 setup forked from [basecamp/omakub](http
 ## What's Included
 
 **Desktop Apps:**
-- Alacritty (terminal with Catppuccin theme)
+- Alacritty (terminal with Everforest theme)
 - Zen browser (privacy-focused)
 - Chromium
 - Obsidian (notes)

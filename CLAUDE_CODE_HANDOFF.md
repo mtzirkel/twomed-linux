@@ -24,7 +24,7 @@ Keep: Flatpak infrastructure, GNOME + Tactile, web app wrapper system, utility s
    - Keep: Flatpak setup, GNOME/Tactile, utility infrastructure
 
 2. **Add our apps:**
-   - Alacritty with solid default config (Catppuccin or Nord theme)
+   - Alacritty with solid default config (Everforest theme)
    - Zen browser installation
    - Bitwarden via Flatpak
    - Verify Chromium, Obsidian, Zed, Flameshot are included/working
