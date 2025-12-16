@@ -20,7 +20,7 @@ A minimal, privacy-focused Ubuntu 24.04 setup forked from [basecamp/omakub](http
 - Modern CLI tools: fzf, ripgrep, bat, eza, zoxide
 
 **Infrastructure:**
-- GNOME + Pop Shell (tiling window manager)
+- GNOME + Tactile (tiling window manager)
 - Flatpak support
 - Ulauncher (app launcher)
 

@@ -14,14 +14,14 @@ Strip Omakub down to essentials and customize for this specific app list:
 - Bitwarden (password manager)
 - Hey email (web app wrapper like Omakub does for Claude)
 
-Keep: Flatpak infrastructure, GNOME + Pop Shell, web app wrapper system, utility scripts
+Keep: Flatpak infrastructure, GNOME + Tactile, web app wrapper system, utility scripts
 
 ## Tasks for Claude Code
 
 1. **Audit and strip bloat:**
    - Review `install/terminal/*.sh` - remove unnecessary tools
    - Review `install/desktop/*.sh` - remove apps not in our list
-   - Keep: Flatpak setup, GNOME/Pop Shell, utility infrastructure
+   - Keep: Flatpak setup, GNOME/Tactile, utility infrastructure
 
 2. **Add our apps:**
    - Alacritty with solid default config (Catppuccin or Nord theme)
