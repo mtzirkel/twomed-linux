@@ -29,7 +29,7 @@ A minimal, privacy-focused Ubuntu 24.04 setup forked from [basecamp/omakub](http
 Run on a fresh Ubuntu 24.04+ installation:
 
 ```bash
-bash <(curl -sL https://raw.githubusercontent.com/twomed/twomed-linux/master/boot.sh)
+bash <(curl -sL https://raw.githubusercontent.com/mtzirkel/twomed-linux/master/boot.sh)
 ```
 
 ## Credits
