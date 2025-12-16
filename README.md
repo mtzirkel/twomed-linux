@@ -1,19 +1,41 @@
-# Omakub
+# twomed-linux
 
-Turn a fresh Ubuntu installation into a fully-configured, beautiful, and modern web development system by running a single command. That's the one-line pitch for Omakub. No need to write bespoke configs for every essential tool just to get started or to be up on all the latest command-line tools. Omakub is an opinionated take on what Linux can be at its best.
+A minimal, privacy-focused Ubuntu 24.04 setup forked from [basecamp/omakub](https://github.com/basecamp/omakub). Strips away the bloat and focuses on essential tools for a clean, keyboard-driven workflow.
 
-Watch the introduction video and read more at [omakub.org](https://omakub.org).
+## What's Included
 
-## Contributing to the documentation
+**Desktop Apps:**
+- Alacritty (terminal with Catppuccin theme)
+- Zen browser (privacy-focused)
+- Chromium
+- Obsidian (notes)
+- Zed (code editor)
+- Flameshot (screenshots)
+- Bitwarden (password manager)
+- HEY (email web app)
+- LocalSend (file sharing)
 
-Please help us improve Omakub's documentation on the [basecamp/omakub-site repository](https://github.com/basecamp/omakub-site).
+**Terminal Tools:**
+- Neovim, GitHub CLI, Docker
+- Modern CLI tools: fzf, ripgrep, bat, eza, zoxide
+
+**Infrastructure:**
+- GNOME + Pop Shell (tiling window manager)
+- Flatpak support
+- Ulauncher (app launcher)
+
+## Installation
+
+Run on a fresh Ubuntu 24.04+ installation:
+
+```bash
+bash <(curl -sL https://raw.githubusercontent.com/twomed/twomed-linux/master/boot.sh)
+```
+
+## Credits
+
+Based on [Omakub](https://omakub.org) by Basecamp. This fork maintains the excellent infrastructure while focusing on a minimal, privacy-conscious app selection.
 
 ## License
 
-Omakub is released under the [MIT License](https://opensource.org/licenses/MIT).
-
-## Extras
-
-While omakub is purposed to be an opinionated take, the open source community offers alternative customization, add-ons, extras, that you can use to adjust, replace or enrich your experience.
-
-[⇒ Browse the omakub extensions.](EXTENSIONS.md)
+Released under the [MIT License](https://opensource.org/licenses/MIT).
