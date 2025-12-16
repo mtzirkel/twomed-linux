@@ -13,6 +13,7 @@ A minimal, privacy-focused Ubuntu 24.04 setup forked from [basecamp/omakub](http
 - Flameshot (screenshots)
 - Bitwarden (password manager)
 - HEY (email web app)
+- Claude (AI assistant web app)
 - LocalSend (file sharing)
 
 **Terminal Tools:**
