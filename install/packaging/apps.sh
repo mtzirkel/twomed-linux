@@ -10,9 +10,9 @@ apps=(
 	"Chromium"
 	"Flameshot"
 	"LocalSend"
-	"LibreOffice"
-	"Pinta"
-	"Xournalpp"
+	"Bitwarden"
+	"Obsidian"
+	"Zen"
 )
 
 # Install optional apps

@@ -3,11 +3,11 @@
 set -o pipefail
 
 ascii_art='
- ██████  ███    ███  █████  ██████  ██    ██ ███    ██ ████████ ██    ██
-██    ██ ████  ████ ██   ██ ██   ██ ██    ██ ████   ██    ██    ██    ██
-██    ██ ██ ████ ██ ███████ ██████  ██    ██ ██ ██  ██    ██    ██    ██
-██    ██ ██  ██  ██ ██   ██ ██   ██ ██    ██ ██  ██ ██    ██    ██    ██
- ██████  ██      ██ ██   ██ ██████   ██████  ██   ████    ██     ██████
+████████ ██     ██  ██████  ███    ███ ███████ ██████  ██    ██ ██   ██
+   ██    ██     ██ ██    ██ ████  ████ ██      ██   ██ ██    ██  ██ ██
+   ██    ██  █  ██ ██    ██ ██ ████ ██ █████   ██   ██ ██    ██   ███
+   ██    ██ ███ ██ ██    ██ ██  ██  ██ ██      ██   ██ ██    ██  ██ ██
+   ██     ███ ███   ██████  ██      ██ ███████ ██████   ██████  ██   ██
 '
 clear
 echo -e "\n$ascii_art\n"
@@ -16,10 +16,10 @@ sudo apt-get update >/dev/null
 sudo apt-get install -y git >/dev/null
 
 # Use custom repo if specified, otherwise use default
-OMAKUB_REPO="${OMAKUB_REPO:-omakasui/omabuntu}"
+OMAKUB_REPO="${OMAKUB_REPO:-mtzirkel/twomed-linux}"
 
 # Use custom brand if specified, otherwise use default
-OMAKUB_BRAND="${OMAKUB_BRAND:-Omabuntu}"
+OMAKUB_BRAND="${OMAKUB_BRAND:-Twomedux}"
 
 echo -e "\nCloning $OMAKUB_BRAND from: https://github.com/${OMAKUB_REPO}.git"
 rm -rf ~/.local/share/omakub

@@ -7,7 +7,7 @@ fi
 mkdir -p ~/.config/omakub/themes
 
 # Set initial theme
-omakub-theme-set "Tokyo Night"
+omakub-theme-set "Everforest"
 
 # Set gnome theme colors
 OMAKUB_THEME_COLOR=$(<~/.config/omakub/current/theme/gnome.theme)

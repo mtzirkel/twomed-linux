@@ -1,7 +1,4 @@
 #!/bin/bash
 
-omakub-webapp-install "WhatsApp" https://web.whatsapp.com/ WhatsApp.png
-omakub-webapp-install "ChatGPT" https://chatgpt.com/ ChatGPT.png
-omakub-webapp-install "YouTube" https://youtube.com/ YouTube.png
-omakub-webapp-install "GitHub" https://github.com/ GitHub.png
-omakub-webapp-install "X" https://x.com/ X.png
+omakub-webapp-install "Claude" https://claude.ai/ Claude.png
+omakub-webapp-install "HEY" https://app.hey.com/ HEY.png

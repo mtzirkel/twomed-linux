@@ -46,6 +46,10 @@ gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-4 "['<Super>4
 gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-5 "['<Super>5']"
 gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-6 "['<Super>6']"
 
+# Workspace navigation with Ctrl+Super+Arrow
+gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-left "['<Ctrl><Super>Left']"
+gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-right "['<Ctrl><Super>Right']"
+
 # Reserve slots for input source switching
 gsettings set org.gnome.desktop.wm.keybindings switch-input-source "@as []"
 
@@ -95,11 +99,8 @@ omakub-keybinding-add 'Spotify' 'spotify' '<Super><Shift>m'
 omakub-keybinding-add 'Editor' 'omakub-launch-editor' '<Super><Shift>n'
 
 # Set webapps hotkeys
-omakub-keybinding-add 'ChatGPT' 'omakub-launch-webapp "https://chatgpt.com" "ChatGPT"' '<Super><Shift>a'
-omakub-keybinding-add 'WhatsApp' 'omakub-launch-webapp "WhatsApp" "https://web.whatsapp.com/" "WhatsApp"' '<Super><Shift><Alt>g'
-omakub-keybinding-add 'YouTube' 'omakub-launch-webapp "https://youtube.com/" "YouTube"' '<Super><Shift>y'
-omakub-keybinding-add 'GitHub' 'omakub-launch-webapp "https://github.com/" "GitHub"' '<Super><Shift>h'
-omakub-keybinding-add 'X' 'omakub-launch-webapp "https://x.com/" "X"' '<Super><Shift>x'
+omakub-keybinding-add 'Claude' 'omakub-launch-webapp "https://claude.ai" "Claude"' '<Super><Shift>a'
+omakub-keybinding-add 'HEY' 'omakub-launch-webapp "https://app.hey.com" "HEY"' '<Super><Shift>h'
 
 # Enable Compose key on Caps Lock
 gsettings set org.gnome.desktop.input-sources xkb-options "['compose:caps']"

@@ -21,3 +21,4 @@ run_logged $OMAKUB_INSTALL/config/gnome/extensions.sh
 run_logged $OMAKUB_INSTALL/config/gnome/hotkeys.sh
 run_logged $OMAKUB_INSTALL/config/gnome/settings.sh
 run_logged $OMAKUB_INSTALL/config/theme.sh
+run_logged $OMAKUB_INSTALL/config/dotfiles.sh

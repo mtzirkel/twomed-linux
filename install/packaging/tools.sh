@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Install Alacritty
-source ~/.local/share/omakub/applications/install/alacritty.sh
+# Install Ghostty (default terminal)
+source ~/.local/share/omakub/applications/install/ghostty.sh
 
 # Install Fastfetch
 sudo add-apt-repository -y ppa:zhangsongcui3371/fastfetch

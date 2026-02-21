@@ -7,3 +7,8 @@ fi
 if pgrep -x kitty >/dev/null; then
   killall -SIGUSR1 kitty >/dev/null
 fi
+
+# Ghostty auto-reloads config on file change — touch the config to trigger
+if [[ -f ~/.config/ghostty/config ]]; then
+  touch ~/.config/ghostty/config
+fi
