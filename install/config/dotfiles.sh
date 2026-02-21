@@ -8,7 +8,7 @@ else
 fi
 
 # Run dotfiles install script
-source ~/.dotfiles/install.sh
+bash ~/.dotfiles/install.sh
 
 # Set zsh as default shell (requires password, so use sudo)
 if [ "$(basename "$SHELL")" != "zsh" ]; then
