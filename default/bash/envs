@@ -1,0 +1,14 @@
+# Editor used by CLI
+export EDITOR="nvim"
+export SUDO_EDITOR="$EDITOR"
+export BAT_THEME=ansi
+
+# Fix Alacritty cursor display issues
+export XCURSOR_THEME="Yaru"
+
+# Terminal
+export TERMINAL=xdg-terminal-exec
+
+# Omabuntu
+export OMAKUB_PATH=$HOME/.local/share/omakub
+export PATH=$OMAKUB_PATH/bin:$PATH
