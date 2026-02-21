@@ -5,7 +5,7 @@ An opinionated Ubuntu setup based on [Omabuntu](https://github.com/omakasui/omab
 ## Install
 
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/mtzirkel/twomed-linux/main/boot.sh)
+curl -sL https://raw.githubusercontent.com/mtzirkel/twomed-linux/main/boot.sh | bash
 ```
 
 ## What you get
