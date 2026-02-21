@@ -1,21 +1,34 @@
-# Omabuntu
+# Twomedux
 
-Omabuntu is a fork of [Omakub](https://omakub.org), the one-liner tool that turns a fresh Ubuntu install into a modern development environment. It builds on Omakub with targeted tweaks for a more streamlined and opinionated Linux setup. Likewise, Omabuntu keeps tabs on the evolving [Omarchy](https://omarchy.org) project, selectively adopting useful changes while staying grounded on a stable, proven base.
+An opinionated Ubuntu setup based on [Omabuntu](https://github.com/omakasui/omabuntu). One command turns a fresh Ubuntu install into a curated development environment.
 
-## Documentation
+## Install
 
-For Omabuntu-specific features, consult the [Omabuntu manual](https://omabuntu.omakasui.org/manual).
+```bash
+bash <(curl -s https://raw.githubusercontent.com/mtzirkel/twomed-linux/main/boot.sh)
+```
 
-To learn about the project it comes from and the key features it has inherited, visit the [official Omakub manual](https://manuals.omamix.org/1/read).
+## What you get
+
+- **Terminal:** Ghostty with Ctrl+V paste and theme switcher integration
+- **Shell:** Zsh + Starship prompt
+- **Theme:** Everforest (default), with 8 other curated themes available
+- **Editor:** Neovim (LazyVim)
+- **Apps:** Chromium, Flameshot, LocalSend, Bitwarden, Obsidian, Zen
+- **Web apps:** Claude, HEY
+- **Keybinds:** Ctrl+Super+Left/Right for workspace navigation, Super+Return for terminal
+- **Dotfiles:** Automatically clones [mtzirkel/dotfiles](https://github.com/mtzirkel/dotfiles) for cross-platform configs (macOS + Linux)
+
+## Themes
+
+Catppuccin Mocha, Everforest, Nord, Gruvbox, Kanagawa, Matte Black, Osaka Jade, Ristretto, Ethereal
+
+Switch themes with `Super+Shift+Ctrl+Space`.
+
+## Based on
+
+Built on [Omabuntu](https://github.com/omakasui/omabuntu), which is itself a fork of [Omakub](https://omakub.org). The internal `omakub-*` tooling and theme system come from upstream.
 
 ## License
 
-Omabuntu is released under the [MIT License](https://opensource.org/licenses/MIT), like the original Omakub project.
-
-## Contributing
-
-As a fork of Omakub, Omabuntu welcomes contributions that extend existing functionality without compromising compatibility with the base project.
-
-If you want to contribute to improving the manual, here is the [repository with the docs](https://github.com/omakasui/omabuntu.omakasui.org).
-
-If you want to contribute to Omakub core features, visit the [official repository](https://github.com/basecamp/omakub).
+Released under the [MIT License](https://opensource.org/licenses/MIT).
