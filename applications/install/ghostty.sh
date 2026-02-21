@@ -1,9 +1,7 @@
 #!/bin/bash
 
-# Install Ghostty via the community Ubuntu PPA (mkasberg/ghostty-ubuntu)
-sudo add-apt-repository -y ppa:mkasberg/ghostty
-sudo apt update -y
-sudo apt install -y ghostty
+# Install Ghostty via mkasberg/ghostty-ubuntu .deb packages
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/mkasberg/ghostty-ubuntu/HEAD/install.sh)"
 
 # Create custom desktop entry with X-TerminalArg* keys for xdg-terminal-exec
 cat > ~/.local/share/applications/com.mitchellh.ghostty.desktop << EOF
