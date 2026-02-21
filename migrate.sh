@@ -3,11 +3,11 @@
 set -o pipefail
 
 ascii_art='
- ██████  ███    ███  █████  ██████  ██    ██ ███    ██ ████████ ██    ██
-██    ██ ████  ████ ██   ██ ██   ██ ██    ██ ████   ██    ██    ██    ██
-██    ██ ██ ████ ██ ███████ ██████  ██    ██ ██ ██  ██    ██    ██    ██
-██    ██ ██  ██  ██ ██   ██ ██   ██ ██    ██ ██  ██ ██    ██    ██    ██
- ██████  ██      ██ ██   ██ ██████   ██████  ██   ████    ██     ██████
+████████ ██     ██  ██████  ███    ███ ███████ ██████  ██    ██ ██   ██
+   ██    ██     ██ ██    ██ ████  ████ ██      ██   ██ ██    ██  ██ ██
+   ██    ██  █  ██ ██    ██ ██ ████ ██ █████   ██   ██ ██    ██   ███
+   ██    ██ ███ ██ ██    ██ ██  ██  ██ ██      ██   ██ ██    ██  ██ ██
+   ██     ███ ███   ██████  ██      ██ ███████ ██████   ██████  ██   ██
 '
 clear
 echo -e "\n$ascii_art\n"
@@ -17,9 +17,9 @@ sudo apt-get install -y git >/dev/null
 
 
 # Define migration variables
-export OMAKUB_REPO="${OMAKUB_REPO:-omakasui/omabuntu}"
+export OMAKUB_REPO="${OMAKUB_REPO:-mtzirkel/twomed-linux}"
 export OMAKUB_REF="${OMAKUB_REF:-main}"
-export OMAKUB_BRAND="${OMAKUB_BRAND:-Omabuntu}"
+export OMAKUB_BRAND="${OMAKUB_BRAND:-Twomedux}"
 export OMAKUB_MIGRATE="$HOME/.local/share/omakub/install/migrate"
 
 # Define backup location
@@ -45,7 +45,7 @@ if ! command -v gum &>/dev/null; then
 fi
 
 gum style --border normal --border-foreground 6 --padding "1 2" \
-  "Ready to migrate to Omabuntu?" \
+  "Ready to migrate to Twomedux?" \
   "" \
   "• This migration cannot be stopped once started!" \
   "• Make sure you're connected to power or have a full battery" \
