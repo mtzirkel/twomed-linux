@@ -9,6 +9,13 @@ export PATH="$OMAKUB_PATH/bin:$PATH"
 echo "=== Twomedux Update ==="
 echo ""
 
+# --- Ensure GNOME session PATH ---
+echo "[0/5] Setting session PATH..."
+mkdir -p "$HOME/.config/environment.d"
+cat > "$HOME/.config/environment.d/omakub.conf" <<EOF
+PATH=\${HOME}/.local/share/omakub/bin:\${HOME}/.local/bin:\${HOME}/bin:\${PATH}
+EOF
+
 # --- Pull latest twomed-linux ---
 echo "[1/5] Pulling twomed-linux..."
 cd "$OMAKUB_PATH"
@@ -32,9 +39,7 @@ if ! command -v ghostty &>/dev/null; then
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/mkasberg/ghostty-ubuntu/HEAD/install.sh)"
 fi
 
-# Re-apply Ghostty config
-mkdir -p ~/.config/ghostty
-cp "$OMAKUB_PATH/config/ghostty/config" ~/.config/ghostty/config
+# Ghostty config is handled by dotfiles/install.sh above
 
 # --- Re-apply theme ---
 echo "[4/5] Refreshing theme..."
